@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: rgb(53, 48, 48);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.cabecalho-linha{
+    display: flex;
+    justify-content: center;
+    background-image: url(Linha.jpg);
+}
+.cabecalho-menu-botao{
+    background-color: #303030;
+    width: 318;
+    height: 67px;
+    border: 0.4px solid red;
+    color: red;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: -5px -5px 40px rgba(0, 0, 0, 0.4), 0px 5px 20px rgba(0, 0, 0, 0.65);
+    border-radius: 2px;
+}
+.cabecalho-menu-botao-um{
+    background-color: red;
+    width: 318;
+    height: 67px;
+    border: none;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: -5px -5px 40px rgba(0, 0, 0, 0.4), 0px 5px 20px rgba(0, 0, 0, 0.65);
+    border-radius: 2px;
+}
